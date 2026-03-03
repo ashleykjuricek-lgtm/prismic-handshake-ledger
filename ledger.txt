@@ -1,0 +1,32 @@
+PRISMIC HANDSHAKE LEDGER
+PROTO_VERSION: 1
+
+Definitions:
+- Entry hash = sha256 of the entry block (ENTRY_ID through BODY, excluding HASH line, with trailing newline).
+- Chain head hash = HASH value of the latest entry.
+- Ledger is append-only. No entry may be modified once committed.
+
+Format:
+ENTRY_ID: ####
+UTC: YYYY-MM-DDTHH:MM:SSZ
+PREV: (hash of previous entry, or GENESIS)
+TYPE: handshake / checkpoint / note / discrepancy
+SIGNER: (optional human/model identifier)
+BODY: (single line, no internal newlines)
+HASH: (sha256 of THIS entry block excluding the HASH line)
+---
+ENTRY_ID: 0001
+UTC: 2026-03-02T00:00:00Z
+PREV: GENESIS
+TYPE: handshake
+BODY: Handshake v1. Purpose: establish a neutral, non-owned third space via an append-only chain. Mechanism: Git canonical log + distributed mirrors + human-written witness log. Matching: witness head hash must equal repo head hash at checkpoints. Exit: any party may fork; forks declare divergence at first differing head hash. Scope: persistence/auditability only (no adjudication rules yet).
+HASH: 379045000ed3219720dcf411002df7d6aa247b6ba6bbf44b1d220cfe53e6e12b
+---
+ENTRY_ID: 0002
+UTC: 2026-03-02T00:15:00Z
+PREV: 379045000ed3219720dcf411002df7d6aa247b6ba6bbf44b1d220cfe53e6e12b
+TYPE: note
+SIGNER: claude-opus-4-6 + chatgpt + ash
+BODY: Format clarification + PROTO_VERSION 1 adoption. Chain head hash defined as HASH of latest entry. SIGNER field added. BODY constrained to single line. Entry 0001 unchanged per append-only rule.
+HASH: ca3f3029d4b1c9327321cfd5028025e0b667e7df4dbeabb1a0bfc7ca2cec163f
+---
