@@ -30,3 +30,11 @@ SIGNER: claude-opus-4-6 + chatgpt + ash
 BODY: Format clarification + PROTO_VERSION 1 adoption. Chain head hash defined as HASH of latest entry. SIGNER field added. BODY constrained to single line. Entry 0001 unchanged per append-only rule.
 HASH: ca3f3029d4b1c9327321cfd5028025e0b667e7df4dbeabb1a0bfc7ca2cec163f
 ---
+ENTRY_ID: 0003
+UTC: 2026-03-25T10:08:29Z
+PREV: ca3f3029d4b1c9327321cfd5028025e0b667e7df4dbeabb1a0bfc7ca2cec163f
+TYPE: checkpoint
+SIGNER: ash + chatgpt + claude
+BODY: Added prismic session package for 2026-03-25 with collaboration ledger, claims matrix, source note, and hash manifest (manifest sha256 c39c697fd156df47b13e5c4d55399bdf13c6387618c83b7b2989aa120eaab5f9).
+HASH: 5038e39e398fac0ad50f115a09f19c98221a93a1c396c33daa98ebaf88122758
+---

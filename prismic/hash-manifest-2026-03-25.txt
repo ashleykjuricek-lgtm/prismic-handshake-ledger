@@ -1,0 +1,16 @@
+PRISMIC HASH MANIFEST
+DATE_UTC: 2026-03-25
+ALGO: SHA-256
+
+# Source artifacts (cottandbull)
+682ff3ef88f06a3e61c08dedb95821bbee1f998a73634ef885ed9e3dedea43b6  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/index.html
+d0a573ee518d47a7d4247d68363a2623fd1c9f947a7ad4410496d9513b238e24  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/assets/PaperPage-TUMSO8-b.js
+dd9fdae032a4b4148753fe6b0139683dd2879d157c4c1c462746d9bef29bd225  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/assets/PaperDraft-Cvk5MN22.js
+9a4442ad11fde9712ff14b6892691757fee1b12adcf8914ec7b14cc5d86b4f50  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/assets/ProofHomePage-DbY6dF8e.js
+80ef3b1bf60c56ee652db3215f1dd99e6620a729c29702b78522e0016a6bb77f  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/assets/SpectralWorkbench-D06RhBZC.js
+b0736fb7be9d583190dba6ca709b8c6e38a682f06e2696118e156a29cc34427a  /Users/ashleyFREE/Downloads/neocities-unsmoothed/cottandbull/assets/SunyaRatioExplorer-SPsGx4WM.js
+
+# Session artifacts (prismic-handshake-ledger)
+691f692afded296f3da3f209acdcf7a48da534b2d5976ca317e4178dd502b71e  prismic/collaboration-ledger-2026-03-25.md
+1c35aee3dfdc4dea41ba49a5623fc9a253350ae024a86d57574112dc2503f836  prismic/claims-matrix-2026-03-25.md
+6fa9b15db3e8a8cef2f5423a0c49101df85336b42af531677cd964b92855dbf3  prismic/tonight-collaboration-source-2026-03-25.md
